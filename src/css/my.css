@@ -1,0 +1,494 @@
+.am-panel {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 0;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
+.am-panel-hd, .am-panel > .am-table:first-child > tbody:first-child > tr:first-child td:first-child, .am-panel > .am-table:first-child > tbody:first-child > tr:first-child th:first-child, .am-panel > .am-table:first-child > thead:first-child > tr:first-child td:first-child, .am-panel > .am-table:first-child > thead:first-child > tr:first-child th:first-child {
+  border-top-left-radius: 0
+}
+
+.am-panel-hd, .am-panel > .am-table:first-child > tbody:first-child > tr:first-child td:last-child, .am-panel > .am-table:first-child > tbody:first-child > tr:first-child th:last-child, .am-panel > .am-table:first-child > thead:first-child > tr:first-child td:last-child, .am-panel > .am-table:first-child > thead:first-child > tr:first-child th:last-child {
+  border-top-right-radius: 0
+}
+
+.am-panel-hd {
+  padding: .6rem 1.25rem;
+  border-bottom: 1px solid transparent
+}
+
+.am-panel-bd {
+  padding: 1.25rem
+}
+
+.am-panel-title {
+  margin: 0;
+  font-size: 100%;
+  color: inherit
+}
+
+.am-panel-title > a {
+  color: inherit
+}
+
+.am-panel-default {
+  border-color: #ddd
+}
+
+.am-panel-default > .am-panel-hd {
+  color: #444;
+  background-color: #f5f5f5;
+  border-color: #ddd
+}
+
+.am-panel-default > .am-panel-hd + .am-panel-collapse > .am-panel-bd {
+  border-top-color: #ddd
+}
+
+.am-panel-default > .am-panel-footer + .am-panel-collapse > .am-panel-bd {
+  border-bottom-color: #ddd
+}
+.am-list, .am-topbar {
+  margin-bottom: 1.6rem
+}
+.am-list {
+  padding-left: 0
+}
+
+.am-list > li {
+  position: relative;
+  display: block;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid #dedede;
+  border-width: 1px 0
+}
+.am-list-static > li {
+  padding: .8rem .2rem
+}
+
+.am-list-border > li > a, .am-list-static.am-list-border > li {
+  padding: 1rem
+}
+
+.am-list > li > a {
+  display: block;
+  padding: 1rem 0
+}
+
+.am-list > li > a.am-active, .am-list > li > a.am-active:focus, .am-list > li > a.am-active:hover {
+  z-index: 2;
+  color: #fff;
+  background-color: #0e90d2;
+  border-color: #0e90d2
+}
+
+.am-list > li > a.am-active .am-list-item-heading, .am-list > li > a.am-active:focus .am-list-item-heading, .am-list > li > a.am-active:hover .am-list-item-heading {
+  color: inherit
+}
+
+.am-list > li > a.am-active .am-list-item-text, .am-list > li > a.am-active:focus .am-list-item-text, .am-list > li > a.am-active:hover .am-list-item-text {
+  color: #b2e2fa
+}
+
+.am-list > li > .am-badge {
+  float: right
+}
+
+.am-list > li > .am-badge + .am-badge {
+  margin-right: 5px
+}
+.am-list-static > li {
+  padding: .8rem .2rem
+}
+.am-list-border > li > a, .am-list-static.am-list-border > li {
+  padding: 1rem
+}
+.am-panel > .am-list-static li, .am-panel > .am-list > li > a {
+  padding-left: 1rem;
+  padding-right: 1rem
+}
+.am-list-striped > li:nth-of-type(even) {
+  background: #f5f5f5
+}
+
+.am-btn:active:focus, .am-btn:focus {
+  outline: dotted thin;
+  outline: -webkit-focus-ring-color auto 1px;
+  outline-offset: -2px
+}
+
+.am-btn:focus, .am-btn:hover {
+  color: #444;
+  text-decoration: none
+}
+
+.am-btn.am-active, .am-btn:active {
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .15);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, .15)
+}
+
+.am-btn.am-disabled, .am-btn[disabled], fieldset[disabled] .am-btn {
+  pointer-events: none;
+  border-color: transparent;
+  cursor: not-allowed;
+  opacity: .45;
+  -webkit-box-shadow: none;
+  box-shadow: none
+}
+
+.am-btn.am-round {
+  border-radius: 1000px
+}
+
+.am-btn.am-radius {
+  border-radius: 2px
+}
+
+.am-btn-default {
+  color: #444;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6
+}
+.am-selected-btn.am-btn-default {
+  background: 0 0
+}
+.am-header-default .am-header-nav .am-btn-default {
+  color: #999
+}
+a.am-btn-default:visited {
+  color: #444
+}
+a.am-btn-default:visited {
+  color: #444
+}
+
+.am-active .am-btn-default.am-dropdown-toggle, .am-btn-default.am-active, .am-btn-default:active, .am-btn-default:focus, .am-btn-default:hover {
+  color: #444;
+  border-color: #c7c7c7
+}
+
+.am-btn-default:focus, .am-btn-default:hover {
+  background-color: #d4d4d4
+}
+
+.am-active .am-btn-default.am-dropdown-toggle, .am-btn-default.am-active, .am-btn-default:active {
+  background-image: none;
+  background-color: #c2c2c2
+}
+.am-header-default .am-header-nav .am-btn-default {
+  color: #999
+}
+.am-btn-default.am-disabled, .am-btn-default.am-disabled.am-active, .am-btn-default.am-disabled:active, .am-btn-default.am-disabled:focus, .am-btn-default.am-disabled:hover, .am-btn-default[disabled], .am-btn-default[disabled].am-active, .am-btn-default[disabled]:active, .am-btn-default[disabled]:focus, .am-btn-default[disabled]:hover, fieldset[disabled] .am-btn-default, fieldset[disabled] .am-btn-default.am-active, fieldset[disabled] .am-btn-default:active, fieldset[disabled] .am-btn-default:focus, fieldset[disabled] .am-btn-default:hover {
+  background-color: #e6e6e6;
+  border-color: #e6e6e6
+}
+
+.am-btn-group .am-btn-default, .am-btn-group-stacked .am-btn-default {
+  border-color: #d9d9d9
+}
+.am-btn:focus, .am-btn:hover {
+  color: #444;
+  text-decoration: none
+}
+.am-btn:active:focus, .am-btn:focus {
+  outline: dotted thin;
+  outline: -webkit-focus-ring-color auto 1px;
+  outline-offset: -2px
+}
+.am-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  padding: .5em 1em;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: center;
+  white-space: nowrap;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 0;
+  cursor: pointer;
+  outline: 0;
+  -webkit-appearance: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: background-color .3s ease-out, border-color .3s ease-out;
+  transition: background-color .3s ease-out, border-color .3s ease-out
+}
+.am-btn, button, input:not([type=radio]):not([type=checkbox]), select {
+  vertical-align: middle
+}
+.am-btn-xs {
+  font-size: 1.2rem
+}
+.am-btn-success {
+  color: #fff;
+  background-color: #5eb95e;
+  border-color: #5eb95e
+}
+
+a.am-btn-success:visited {
+  color: #fff
+}
+
+.am-active .am-btn-success.am-dropdown-toggle, .am-btn-success.am-active, .am-btn-success:active, .am-btn-success:focus, .am-btn-success:hover {
+  color: #fff;
+  border-color: #429842
+}
+
+.am-btn-success:focus, .am-btn-success:hover {
+  background-color: #4aaa4a
+}
+
+.am-active .am-btn-success.am-dropdown-toggle, .am-btn-success.am-active, .am-btn-success:active {
+  background-image: none;
+  background-color: #3f913f
+}
+
+.am-btn-success.am-disabled, .am-btn-success.am-disabled.am-active, .am-btn-success.am-disabled:active, .am-btn-success.am-disabled:focus, .am-btn-success.am-disabled:hover, .am-btn-success[disabled], .am-btn-success[disabled].am-active, .am-btn-success[disabled]:active, .am-btn-success[disabled]:focus, .am-btn-success[disabled]:hover, fieldset[disabled] .am-btn-success, fieldset[disabled] .am-btn-success.am-active, fieldset[disabled] .am-btn-success:active, fieldset[disabled] .am-btn-success:focus, fieldset[disabled] .am-btn-success:hover {
+  background-color: #5eb95e;
+  border-color: #5eb95e
+}
+
+.am-btn-group .am-btn-success, .am-btn-group-stacked .am-btn-success {
+  border-color: #4db14d
+}
+.am-input-group .am-form-field:first-child, .am-input-group-btn:first-child > .am-btn, .am-input-group-btn:first-child > .am-btn-group > .am-btn, .am-input-group-btn:first-child > .am-dropdown-toggle, .am-input-group-btn:last-child > .am-btn-group:not(:last-child) > .am-btn, .am-input-group-btn:last-child > .am-btn:not(:last-child):not(.dropdown-toggle), .am-input-group-label:first-child {
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0
+}
+.am-share-footer .am-btn {
+  color: #555
+}
+.am-header-default .am-header-nav .am-btn {
+  margin-top: 9px;
+  height: 31px;
+  padding: 0 .5em;
+  line-height: 30px;
+  font-size: 14px;
+  vertical-align: top
+}
+.am-header-default .am-header-nav .am-btn .am-header-icon {
+  font-size: inherit
+}
+
+.am-header-default .am-header-nav .am-btn-default {
+  color: #999
+}
+.am-btn-xs {
+  font-size: 1.2rem
+}
+.am-btn-success {
+  color: #fff;
+  background-color: #5eb95e;
+  border-color: #5eb95e
+}
+
+a.am-btn-success:visited {
+  color: #fff
+}
+
+.am-active .am-btn-success.am-dropdown-toggle, .am-btn-success.am-active, .am-btn-success:active, .am-btn-success:focus, .am-btn-success:hover {
+  color: #fff;
+  border-color: #429842
+}
+
+.am-btn-success:focus, .am-btn-success:hover {
+  background-color: #4aaa4a
+}
+
+.am-active .am-btn-success.am-dropdown-toggle, .am-btn-success.am-active, .am-btn-success:active {
+  background-image: none;
+  background-color: #3f913f
+}
+
+.am-btn-success.am-disabled, .am-btn-success.am-disabled.am-active, .am-btn-success.am-disabled:active, .am-btn-success.am-disabled:focus, .am-btn-success.am-disabled:hover, .am-btn-success[disabled], .am-btn-success[disabled].am-active, .am-btn-success[disabled]:active, .am-btn-success[disabled]:focus, .am-btn-success[disabled]:hover, fieldset[disabled] .am-btn-success, fieldset[disabled] .am-btn-success.am-active, fieldset[disabled] .am-btn-success:active, fieldset[disabled] .am-btn-success:focus, fieldset[disabled] .am-btn-success:hover {
+  background-color: #5eb95e;
+  border-color: #5eb95e
+}
+
+.am-btn-group .am-btn-success, .am-btn-group-stacked .am-btn-success {
+  border-color: #4db14d
+}
+.am-icon-plug:before {
+  content: "\f1e6"
+}
+.am-icon-close:before, .am-icon-remove:before, .am-icon-times:before {
+  content: "\f00d"
+}
+.am-icon-bug:before {
+  content: "\f188"
+}
+.am-icon-trash-o:before {
+  content: "\f014"
+}
+.am-icon-commenting:before {
+  content: "\f27a"
+}
+.am-btn-group-stacked > .am-btn-group:not(:first-child):not(:last-child) > .am-btn, .am-btn-group-stacked > .am-btn:not(:first-child):not(:last-child), .am-btn-group > .am-btn-group:not(:first-child):not(:last-child) > .am-btn, .am-btn-group > .am-btn:not(:first-child):not(:last-child):not(.am-dropdown-toggle) {
+  border-radius: 0
+}
+.am-btn-group > .am-btn-group, .am-btn-toolbar .am-btn-group, .am-btn-toolbar .am-input-group {
+  float: left
+}
+.am-btn-group, .am-btn-group-stacked {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle
+}
+.am-btn-group-xs > .am-btn {
+  font-size: 1.2rem
+}
+.am-kai {
+  font-family: Georgia, "Times New Roman", Times, Kai, "Kaiti SC", KaiTi, BiauKai, FontAwesome, serif
+}
+.am-btn-danger {
+  color: #fff;
+  background-color: #dd514c;
+  border-color: #dd514c
+}
+a.am-btn-danger:visited {
+  color: #fff
+}
+.am-btn-danger:focus, .am-btn-danger:hover {
+  background-color: #d7342e
+}
+.am-btn-group .am-btn-danger, .am-btn-group-stacked .am-btn-danger {
+  border-color: #d93c37
+}
+.am-form-group {
+  margin-bottom: 1.5rem
+}
+.am-form-horizontal .am-form-group:after, .am-form-horizontal .am-form-group:before {
+  content: " ";
+  display: table
+}
+@media only screen and (min-width: 641px) {
+
+  .am-form-inline .am-form-group, .am-form-inline .am-form-label {
+    margin-bottom: 0;
+    vertical-align: middle
+  }
+
+  .am-form-inline .am-form-group {
+    display: inline-block
+  }
+}
+.am-form-group-sm .am-checkbox, .am-form-group-sm .am-form-field, .am-form-group-sm .am-form-label, .am-form-group-sm .am-radio {
+  font-size: 1.4rem !important
+}
+
+.am-form-group-lg .am-checkbox, .am-form-group-lg .am-form-field, .am-form-group-lg .am-form-label, .am-form-group-lg .am-radio {
+  font-size: 1.8rem !important
+}
+
+.am-form-group-lg input[type=checkbox], .am-form-group-lg input[type=radio] {
+  margin-top: 7px
+}
+.am-form-group .am-alert {
+  margin: 5px 0 0;
+  padding: .25em .625em;
+  font-size: 1.3rem
+}
+.am-form input[type=number], .am-form input[type=search], .am-form input[type=text], .am-form input[type=password], .am-form input[type=datetime], .am-form input[type=datetime-local], .am-form input[type=date], .am-form input[type=month], .am-form input[type=time], .am-form input[type=week], .am-form input[type=email], .am-form input[type=url], .am-form input[type=tel], .am-form input[type=color], .am-form select, .am-form textarea, .am-form-field {
+  display: block;
+  width: 100%;
+  padding: .5em;
+  font-size: 1.6rem;
+  line-height: 1.2;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  -webkit-appearance: none;
+  -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+  transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out, -webkit-box-shadow .15s ease-in-out
+}
+.am-form input[type=number]:focus, .am-form input[type=search]:focus, .am-form input[type=text]:focus, .am-form input[type=password]:focus, .am-form input[type=datetime]:focus, .am-form input[type=datetime-local]:focus, .am-form input[type=date]:focus, .am-form input[type=month]:focus, .am-form input[type=time]:focus, .am-form input[type=week]:focus, .am-form input[type=email]:focus, .am-form input[type=url]:focus, .am-form input[type=tel]:focus, .am-form input[type=color]:focus, .am-form select:focus, .am-form textarea:focus, .am-form-field:focus {
+  background-color: #fefffe;
+  border-color: #3bb4f2;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 5px rgba(59, 180, 242, .3);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 5px rgba(59, 180, 242, .3)
+}
+
+.am-form input[type=number]::-webkit-input-placeholder, .am-form input[type=search]::-webkit-input-placeholder, .am-form input[type=text]::-webkit-input-placeholder, .am-form input[type=password]::-webkit-input-placeholder, .am-form input[type=datetime]::-webkit-input-placeholder, .am-form input[type=datetime-local]::-webkit-input-placeholder, .am-form input[type=date]::-webkit-input-placeholder, .am-form input[type=month]::-webkit-input-placeholder, .am-form input[type=time]::-webkit-input-placeholder, .am-form input[type=week]::-webkit-input-placeholder, .am-form input[type=email]::-webkit-input-placeholder, .am-form input[type=url]::-webkit-input-placeholder, .am-form input[type=tel]::-webkit-input-placeholder, .am-form input[type=color]::-webkit-input-placeholder, .am-form select::-webkit-input-placeholder, .am-form textarea::-webkit-input-placeholder, .am-form-field::-webkit-input-placeholder {
+  color: #999
+}
+
+.am-form input[type=number]::-moz-placeholder, .am-form input[type=search]::-moz-placeholder, .am-form input[type=text]::-moz-placeholder, .am-form input[type=password]::-moz-placeholder, .am-form input[type=datetime]::-moz-placeholder, .am-form input[type=datetime-local]::-moz-placeholder, .am-form input[type=date]::-moz-placeholder, .am-form input[type=month]::-moz-placeholder, .am-form input[type=time]::-moz-placeholder, .am-form input[type=week]::-moz-placeholder, .am-form input[type=email]::-moz-placeholder, .am-form input[type=url]::-moz-placeholder, .am-form input[type=tel]::-moz-placeholder, .am-form input[type=color]::-moz-placeholder, .am-form select::-moz-placeholder, .am-form textarea::-moz-placeholder, .am-form-field::-moz-placeholder {
+  color: #999;
+  opacity: 1
+}
+
+.am-form input[type=number]:-ms-input-placeholder, .am-form input[type=search]:-ms-input-placeholder, .am-form input[type=text]:-ms-input-placeholder, .am-form input[type=password]:-ms-input-placeholder, .am-form input[type=datetime]:-ms-input-placeholder, .am-form input[type=datetime-local]:-ms-input-placeholder, .am-form input[type=date]:-ms-input-placeholder, .am-form input[type=month]:-ms-input-placeholder, .am-form input[type=time]:-ms-input-placeholder, .am-form input[type=week]:-ms-input-placeholder, .am-form input[type=email]:-ms-input-placeholder, .am-form input[type=url]:-ms-input-placeholder, .am-form input[type=tel]:-ms-input-placeholder, .am-form input[type=color]:-ms-input-placeholder, .am-form select:-ms-input-placeholder, .am-form textarea:-ms-input-placeholder, .am-form-field:-ms-input-placeholder {
+  color: #999
+}
+
+.am-form input[type=number]::placeholder, .am-form input[type=search]::placeholder, .am-form input[type=text]::placeholder, .am-form input[type=password]::placeholder, .am-form input[type=datetime]::placeholder, .am-form input[type=datetime-local]::placeholder, .am-form input[type=date]::placeholder, .am-form input[type=month]::placeholder, .am-form input[type=time]::placeholder, .am-form input[type=week]::placeholder, .am-form input[type=email]::placeholder, .am-form input[type=url]::placeholder, .am-form input[type=tel]::placeholder, .am-form input[type=color]::placeholder, .am-form select::placeholder, .am-form textarea::placeholder, .am-form-field::placeholder {
+  color: #999
+}
+
+.am-form input[type=number][disabled], .am-form input[type=number][readonly], .am-form input[type=search][disabled], .am-form input[type=search][readonly], .am-form input[type=text][disabled], .am-form input[type=text][readonly], .am-form input[type=password][disabled], .am-form input[type=password][readonly], .am-form input[type=datetime][disabled], .am-form input[type=datetime][readonly], .am-form input[type=datetime-local][disabled], .am-form input[type=datetime-local][readonly], .am-form input[type=date][disabled], .am-form input[type=date][readonly], .am-form input[type=month][disabled], .am-form input[type=month][readonly], .am-form input[type=time][disabled], .am-form input[type=time][readonly], .am-form input[type=week][disabled], .am-form input[type=week][readonly], .am-form input[type=email][disabled], .am-form input[type=email][readonly], .am-form input[type=url][disabled], .am-form input[type=url][readonly], .am-form input[type=tel][disabled], .am-form input[type=tel][readonly], .am-form input[type=color][disabled], .am-form input[type=color][readonly], .am-form select[disabled], .am-form select[readonly], .am-form textarea[disabled], .am-form textarea[readonly], .am-form-field[disabled], .am-form-field[readonly], fieldset[disabled] .am-form input[type=number], fieldset[disabled] .am-form input[type=search], fieldset[disabled] .am-form input[type=text], fieldset[disabled] .am-form input[type=password], fieldset[disabled] .am-form input[type=datetime], fieldset[disabled] .am-form input[type=datetime-local], fieldset[disabled] .am-form input[type=date], fieldset[disabled] .am-form input[type=month], fieldset[disabled] .am-form input[type=time], fieldset[disabled] .am-form input[type=week], fieldset[disabled] .am-form input[type=email], fieldset[disabled] .am-form input[type=url], fieldset[disabled] .am-form input[type=tel], fieldset[disabled] .am-form input[type=color], fieldset[disabled] .am-form select, fieldset[disabled] .am-form textarea, fieldset[disabled] .am-form-field {
+  cursor: not-allowed;
+  background-color: #eee
+}
+
+.am-form input[type=number].am-radius, .am-form input[type=search].am-radius, .am-form input[type=text].am-radius, .am-form input[type=password].am-radius, .am-form input[type=datetime].am-radius, .am-form input[type=datetime-local].am-radius, .am-form input[type=date].am-radius, .am-form input[type=month].am-radius, .am-form input[type=time].am-radius, .am-form input[type=week].am-radius, .am-form input[type=email].am-radius, .am-form input[type=url].am-radius, .am-form input[type=tel].am-radius, .am-form input[type=color].am-radius, .am-form select.am-radius, .am-form textarea.am-radius, .am-form-field.am-radius {
+  border-radius: 2px
+}
+
+.am-form input[type=number].am-round, .am-form input[type=search].am-round, .am-form input[type=text].am-round, .am-form input[type=password].am-round, .am-form input[type=datetime].am-round, .am-form input[type=datetime-local].am-round, .am-form input[type=date].am-round, .am-form input[type=month].am-round, .am-form input[type=time].am-round, .am-form input[type=week].am-round, .am-form input[type=email].am-round, .am-form input[type=url].am-round, .am-form input[type=tel].am-round, .am-form input[type=color].am-round, .am-form select.am-round, .am-form textarea.am-round, .am-form-field.am-round {
+  border-radius: 1000px
+}
+
+.am-form select[multiple], .am-form select[size], .am-form textarea {
+  height: auto
+}
+
+.am-form select {
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+  -webkit-border-radius: 0;
+  background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMTJweCIgeT0iMHB4IiB3aWR0aD0iMjRweCIgaGVpZ2h0PSIzcHgiIHZpZXdCb3g9IjAgMCA2IDMiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDYgMyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBvbHlnb24gcG9pbnRzPSI1Ljk5MiwwIDIuOTkyLDMgLTAuMDA4LDAgIi8+PC9zdmc+) 100% center no-repeat #fff
+}
+
+.am-form select[multiple=multiple] {
+  background-image: none
+}
+
+.am-form-help {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #999;
+  font-size: 1.3rem
+}
+.am-scrollable-vertical {
+  height: 240px;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  resize: vertical
+}
+.admin-content {
+  width: auto;
+  overflow: hidden;
+  height: 100%;
+  background: #fff;
+}
+.fixed-layout .admin-content,
+.fixed-layout .admin-sidebar {
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
