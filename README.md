@@ -1,4 +1,4 @@
-# whenever-chat
+# InstantChat
 
 > A Vue.js project
 
