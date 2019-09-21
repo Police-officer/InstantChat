@@ -38,4 +38,4 @@ vue内容垂直和水平居中:
 <v-layout row wrap  align-center justify-center fill-height ></v-layout>
 2、水平居中
 <v-card-text class="mx-auto"></v-card-text>
-
+https://github.com/Police-officer/InstantChat/blob/master/src/assets/bg1.jpg
