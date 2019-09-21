@@ -32,3 +32,4 @@ md    ≧992px   响应式栅格数或者栅格属性对象
 lg    ≧1200px   响应式栅格数或者栅格属性对象
 
 xl    ≧1920px   响应式栅格数或者栅格属性对象
+![Image text](https://raw.githubusercontent.com/hongmaju/light7Local/master/img/productShow/20170518152848.png)
