@@ -21,7 +21,7 @@ export default new Router({
       component: () => import('../pages/Layout'),  //异步加载
       redirect:"/login",
       children:[
-        route("/chat/login","/Login","Login"),
+        route("/login","/Login","Login"),
         route("/chat/layout","/Layout","Layout"),
         route("/chat/c1","/C1","C1"),
         route("/chat/c2","/C2","C2"),
