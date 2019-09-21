@@ -32,5 +32,6 @@ md    ≧992px   响应式栅格数或者栅格属性对象
 lg    ≧1200px   响应式栅格数或者栅格属性对象
 
 xl    ≧1920px   响应式栅格数或者栅格属性对象
+
 #效果演示：
 ![Image text](https://github.com/Police-officer/InstantChat/blob/master/src/assets/208.gif)
