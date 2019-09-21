@@ -35,6 +35,6 @@ xl    ≧1920px   响应式栅格数或者栅格属性对象
 
 vue内容垂直和水平居中:
 
-1、垂直居中:<v-layout row wrap  align-center justify-center fill-height ></v-layout>
+1、垂直居中:<!--<v-layout row wrap  align-center justify-center fill-height ></v-layout>-->
 
 2、水平居中:<v-card-text class="mx-auto"></v-card-text>
