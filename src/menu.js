@@ -3,7 +3,7 @@ var menus = [
     action: "home",
     title: "Node.1",
     path:"/chat",
-    items: [{ title: "测试-1", path: "/video" },{ title: "测试-2", path: "/socket" },{ title: "home", path: "/login" }]
+    items: [{ title: "测试-1", path: "/video" },{ title: "测试-2", path: "/socket" }]
   },
   {
     action: "contact_mail",
